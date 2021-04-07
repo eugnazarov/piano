@@ -1,7 +1,7 @@
 .key{
   cursor: pointer;
-  width: 26px;
-  height: 140px;
+  width: 130px;
+  height: 700px;
   border: .1px solid black;
   z-index: 10;
 
@@ -9,8 +9,9 @@
     background-color: lightgrey;
 }
   &:active{
-    transform:scale(0.99);
-    background-color: pink;
+    transform:translateY(-1px);
+    box-shadow: 1px 1px 1px 1px;
+    background-color: lightcoral;
   }
 
   &_white{
@@ -20,10 +21,10 @@
   &_black{
     background-color: #000;
     position: relative;
-    margin-left: -11px;
-    margin-right: -11px;
+    margin-left: -55px;
+    margin-right: -55px;
     z-index: 100;
-    height: 100px;
-    width: 20px;
+    height: 500px;
+    width: 100px;
   }
 }
